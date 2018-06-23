@@ -1,5 +1,7 @@
+@import '../variables';
+
 nav {
-  background-color: lightgray;
+  background-color: $lightgray;
   position: absolute;
   top: 0;
   left: 0;
@@ -8,13 +10,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-
-  // ul, .brand-logo {
-  //   padding: 0 20px;
-  //   line-height: 56px;
-  //   height: 56px;
-  // }
+  box-shadow: $box-shadow;
 
   & > * { // & = navbar > * targets all siblings
     padding: 0 20px;
